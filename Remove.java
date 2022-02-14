@@ -4,19 +4,19 @@ public class Remove {
 
     public static void main(String[] args) {
         int A[] = new int[10];
-        A[1] = 9;
-        A[2] = 6;
-        A[3] = 10;
-        A[4] = 12;
-        A[5] = 7;
-        A[6] = 5;
+        A[0] = 9;
+        A[1] = 6;
+        A[2] = 10;
+        A[3] = 12;
+        A[4] = 7;
+        A[5] = 5;
         System.out.println("Before Deletion");
         for (int x : A) {
             System.out.print(x + " ");
         }
         System.out.println();
 
-        for (int i = 2; i < A.length; i++) {
+        for (int i = 1; i < A.length; i++) {
             A[i - 1] = A[i];
         }
 
