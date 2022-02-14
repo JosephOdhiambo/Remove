@@ -20,7 +20,7 @@ public class Remove {
             A[i - 1] = A[i];
         }
 
-        System.out.println("After deletion");
+        System.out.println("After deletion--");
         for (int x : A) {
             System.out.print(x + " ");
            
