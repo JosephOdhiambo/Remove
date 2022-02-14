@@ -23,7 +23,7 @@ public class Remove {
         System.out.println("After deletion");
         for (int x : A) {
             System.out.print(x + " ");
-            //Shallala;
+           
         }
         System.out.println();
     }
